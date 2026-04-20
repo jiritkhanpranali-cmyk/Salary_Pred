@@ -25,16 +25,16 @@ df = pd.read_csv(
     "https://raw.githubusercontent.com/jiritkhanpranali-cmyk/Salary_Pred/refs/heads/main/Salary_Data.csv"
 )
 
-st.write("## 📊 Dataset Preview")
-st.dataframe(df.head())
+#st.write("## 📊 Dataset Preview")
+#st.dataframe(df.head())
 
-st.write("## ℹ️ Dataset Info")
-buffer = io.StringIO()
-df.info(buf=buffer)
-st.text(buffer.getvalue())
+#st.write("## ℹ️ Dataset Info")
+#buffer = io.StringIO()
+#df.info(buf=buffer)
+#st.text(buffer.getvalue())
 
-st.write("## ❓ Missing Values")
-st.write(df.isnull().sum())
+#st.write("## ❓ Missing Values")
+#st.write(df.isnull().sum())
 
 # -----------------------------
 # 3. User Input UI
