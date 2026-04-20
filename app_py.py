@@ -9,7 +9,7 @@ Original file is located at
 
 import pandas as pd
 
-df = pd.read_csv('/content/Salary Data.csv')
+df = pd.read_csv('https://raw.githubusercontent.com/jiritkhanpranali-cmyk/Salary_Pred/refs/heads/main/Salary%20Data.csv')
 
 df
 
